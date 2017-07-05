@@ -1,5 +1,5 @@
 .padding-20{
-    padding:30px;
+    padding:20px;
 }
 .list{
     list-style:none;
@@ -7,4 +7,15 @@
 }
 .list-component{
     text-align: center;
+}
+ol.list {
+    /* display: flex; */
+    text-align: left;
+    padding: 0;
+    /* align-items: initial; */
+}
+li{
+	color: darkcyan;
+    font-family: cursive;
+    font-weight: 500;
 }
