@@ -7,13 +7,13 @@ import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import { Router, Route, Link, browserHistory,IndexRoute} from 'react-router';
 import {configureStore} from './store/configureStore';
-import SampleComponent from './components/Sample';
+import LayoutContainer from './containers/LayoutContainer';
 const store=configureStore();
 render(
 
 	<Provider store={store}>
 	<Router history = {browserHistory}>
-		<Route path="/" component={SampleComponent} /> 
+		<Route path="/" component={LayoutContainer} />
 	</Router>
 	</Provider>,
 	document.getElementById('container')
