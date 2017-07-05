@@ -1,0 +1,1 @@
+export const FETCH_DATA_URL='https://api.myjson.com/bins/1a01jz';
